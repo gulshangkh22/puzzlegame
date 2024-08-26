@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1300px){
+    .navbar{
+        font-size: 56px;
+        padding-bottom: 40px;
+    }
+
+    .ul1{
+        display: none;
+    }
+    .ul2, .ul3{
+        margin-top: 15px;
+    }
+
+    .mainbody{
+        height: 94rem;
+        padding-top: 4rem;
+    }
+
+    .box{
+        margin-top: 53rem;
+        margin-left: 70%;
+    }
+    .boxrule{
+        margin-top: 54rem;
+        margin-left: 24%;
+    }
+
+    .tabledisplay , .tabledisplay2{
+        margin-top: 11rem;
+    }
+
+    .box1{
+        margin-top: 43.2rem;
+    }
+    .footer{
+        padding-top: 4.5rem;
+        height: 13rem;
+    }
+
+    .links{
+        display:block;
+        display: flex;
+        justify-content: space-evenly;
+        width: 33rem;
+        transform:translate(-50%) ;
+        margin-left: 50%;   /*align to center*/
+    }
+
+    .challangebox{
+        margin-left: 14%;
+        margin-top: 38rem;
+        width:11.2rem;
+    }
+
+    .container{
+        margin-top: 50rem;
+        width: 160px;
+    }
+
+    .dot{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+    .box1{
+        height:6rem;
+        padding-top: 0.0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 3rem;
+        padding-bottom: 0.0rem;
+    }
+    .button, .button2, .button3{
+        padding: 1rem 1.3rem 1rem 1.3rem;
+        border-radius: 2rem;
+        border: 5px solid rgb(134, 59, 209);
+        font-weight: 160;
+        min-width: fit-content;
+    }
+    
+    .box{
+        margin-top: 55.5rem;
+    }
+    .boxrule{
+        margin-top: 56.6rem;
+    }
+
+    .challangebox{
+        padding: 13px;
+        font-size:large;
+        margin-left: 15%;
+        width: 18%;
+        min-width:fit-content;   /*12.5rem*/
+    }
+
+    .boxscore{
+        text-align: center;
+        min-width: fit-content;
+    }
+    
+}
